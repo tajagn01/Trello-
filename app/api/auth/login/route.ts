@@ -1,7 +1,7 @@
 
 import {loginShcema} from "@/lib/validator"
 import {NextRequest, NextResponse} from"next/server";
-// import {prisma} from "@/lib/prisma"
+import {prisma} from "@/lib/prisma"
 
 export async default function  POST(request: NextRequest){
     try{
