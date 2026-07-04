@@ -2,22 +2,16 @@
 
  export default function Login() {
     return (
-        <div>
-            <h1>
+        <div className = "min-h-screen flex items-center justify-center bg-[var(--background)] px-4">
+            <div className = "w-full max-w-md rounded-2xl border border-[var(--light-grey)] bg-[var(--white)] p-8 shadow-lg">
+            <h1 className = "text-3xl font-bold text-[var(--text-primary)] text-center">
                 Welcome Back
             </h1>
-            <p>
+            <p className = "mt-2 text-center text-[var(--text-secondary)]">
                 sign in to your Account
             </p>
 
-        <form >
-{/* enter username */}
-            <div>
-                <label >
-                    username
-                </label>
-                <input type="text" placeholder="Enter Username" />
-            </div>
+        <form className = "mt-8 space-y-5">
 {/* email */}
             <div>
                 <label>Email</label>
@@ -41,6 +35,7 @@
         <p> Don&apos;t have an account?{" "}
             <Link href = "#"> Sign Up</Link>  
         </p>
+        </div>
         </div>
     );
  }
