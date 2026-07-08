@@ -1,7 +1,13 @@
+import { link } from "fs";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
-  return (
-  <h1>hi this is the home page</h1>
+  return (<>
+  
+  
+  <Link href="/login">login page</Link>
+  <Link href="/signup">sign up</Link>
+  </>
   );
 }
