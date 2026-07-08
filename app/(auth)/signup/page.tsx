@@ -1,4 +1,4 @@
-import SignupForm from "@/componets/auth/signupFoam";
+import SignupForm from "@/componets/auth/SignupFoam";
 
 export default function SignupPage() {
     return (

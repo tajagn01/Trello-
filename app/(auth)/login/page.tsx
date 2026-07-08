@@ -1,8 +1,7 @@
- import LoginFoam from "@/componets/auth/LoginFoam";
-import Link from "next/link";
+import LoginFoam from "@/componets/auth/LoginFoam";
 
- export default function Login() {
+export default function Login(){
     return (
-     <LoginFoam/>
-    );
- }
+        <LoginFoam />
+    )
+}
